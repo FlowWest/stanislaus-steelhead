@@ -6,6 +6,7 @@ library(tidyverse)
 # TODO units for distance in redd data?
 # TODO check units for environmental data
 # TODO check coverage, project metadata
+# TODO fix issue with adding funding metadata
 
 
 # carcass
