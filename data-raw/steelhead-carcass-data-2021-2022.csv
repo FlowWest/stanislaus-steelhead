@@ -1,0 +1,17 @@
+﻿date,riffle,carcass_ID,condition,sex,forklength_cm,adclip,scales,head,otoliths,fin_clip,notes
+2/9/2021,G9,SH-02-01,F,M,35,N,Y,N,Y,Y,
+2/9/2021,J3,SH-02-02,D,F,31,N,Y,N,Y,Y,Eggs Present
+3/15/2021,A1,SH-07-01,F,F,26,N,Y,N,Y,Y,Eggs Present
+3/16/2021,F7,SH-07-02,F,F,35,N,Y,N,Y,Y,
+3/17/2021,Z2,SH-07-03,F,M,27,N,Y,N,Y,Y,
+10/10/2020,K1S,SH-00-01,F,M,23,N,Y,N,Y,Y,
+11/22/2020,A1,SH-00-02,F,F,27,N,Y,N,Y,Y,Eggs Present
+12/1/2020,A1,SH-00-03,F,M,25,N,Y,N,Y,Y,
+12/6/2021,C2,RBT-21-07,D,M,38,N,Y,N,Y,Y,
+12/1/2021,N4,RBT-21-06,D,M,39,N,Y,N,Y,Y,
+11/29/2021,A1,RBT-21-04,F,F,38,N,Y,N,Y,Y,
+11/29/2021,A4,RBT-21-05,F,M,40,N,Y,N,Y,Y,
+11/21/2021,A1,RBT-21-03,F,M,30,N,Y,N,Y,Y,
+11/3/2021,S1,RBT-21-02,D,F,32,N,Y,N,Y,Y,
+11/1/2021,C2,RBT-21-01,F,M,17.5,N,Y,N,Y,Y,
+3/22/2022,J2,PL-12-01,F,F,43,-,-,-,-,-,
