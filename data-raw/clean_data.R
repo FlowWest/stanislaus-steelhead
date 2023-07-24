@@ -3,6 +3,10 @@ library(tidyverse)
 # questions
 # TODO do we want "-" as an option for all the y/n columns? (carcass & redd)
 # TODO 172 rows in steelhead adult/juvenile that have NA date
+# TODO units for distance in redd data?
+# TODO check units for environmental data
+# TODO check coverage, project metadata
+
 
 # carcass
 carcass <- read.csv(here::here("data-raw", "steelhead-carcass-data-2021-2022.csv")) |>
@@ -20,7 +24,7 @@ redd <- read.csv(here::here("data-raw", "steelhead-and-lamprey-redd-data-2021-20
          pot_length_cm = ifelse(pot_length_cm == "", NA, pot_length_cm),
          pot_width_cm = ifelse(pot_width_cm == "", NA, pot_width_cm),
          pot_depth_cm = ifelse(pot_depth_cm == "", NA, pot_depth_cm),
-         est_pot_substrate = ifelse(est_pot_substrate == "", NA, est_pot_substrate),
+         est_pot_substrate = ifelse(est_pot_substrate %in% c(" -", ""), NA, est_pot_substrate),
          est_tailspin_substrate = ifelse(est_tailspin_substrate == "", NA, est_tailspin_substrate),
          est_ambient_substrate = ifelse(est_ambient_substrate == "", NA, est_ambient_substrate),
          X = ifelse(X == "", NA, X),
@@ -33,6 +37,7 @@ redd <- read.csv(here::here("data-raw", "steelhead-and-lamprey-redd-data-2021-20
          fish_2_size = ifelse(fish_2_size %in% c("", " -"), NA, fish_2_size),
          comments = ifelse(comments == "", NA, comments)) |>
   rename(species = specices) |>
+  select(-c(tailspin_width_cm.1, X)) |>
   glimpse()
 
 # environmental
