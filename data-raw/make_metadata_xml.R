@@ -54,7 +54,7 @@ custom_units <- data.frame(id = c("count", "year"),
                            multiplierToSI = c(NA, NA),
                            description = c("count of redd or fish",
                                            "age of fish in years"))
-edi_number <- 1234
+edi_number <- "stanislaus_steelhead"
 
 unitList <- EML::set_unitList(custom_units)
 

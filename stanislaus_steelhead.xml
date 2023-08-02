@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="stanislaus_steelhead" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>cvpia</principal>
+      <permission>write</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>Stanislaus Steelhead Monitoring</shortName>
+    <title>Stanislaus River Steelhead Monitoring and Redd Assessment, 2021</title>
+    <creator>
+      <individualName>
+        <givenName>Steve</givenName>
+        <surName>Tsao</surName>
+      </individualName>
+      <organizationName>CDFW</organizationName>
+      <electronicMailAddress>Steve.Tsao@wildlife.ca.gov</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Ryan</givenName>
+        <surName>Kok</surName>
+      </individualName>
+      <organizationName>CDFW</organizationName>
+      <electronicMailAddress>Ryan.Kok@wildlife.ca.gov</electronicMailAddress>
+      <role>principal investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Emma</givenName>
+        <surName>Keller</surName>
+      </individualName>
+      <organizationName>CDFW</organizationName>
+      <electronicMailAddress>Emma.Keller@wildlife.ca.gov</electronicMailAddress>
+      <role>reviewer</role>
+    </associatedParty>
+    <pubDate>2023-08-02</pubDate>
+    <abstract>
+      <para>
+    Overview
+  </para>
+      <para>
+    The Stanislaus River Steelhead Life Cycle Monitoring Program is an
+    ongoing survey starting in 2021 that aims to estimate the amount of
+    steelhead (</para>
+      <para>
+        <emphasis>Onocorhynchus mykiss</emphasis>
+      </para>
+      <para>) present in the
+    Stanislaus River by recording steelhead and redds observed. In
+    addition to estimating the amount of steelhead, the survey aims to
+    collect data relevant to steelhead spawning, documenting
+    environmental conditions such as temperature and flow, and recording
+    other fish activity present.
+  </para>
+      <para>
+    Daily Info – Environmental Data
+  </para>
+      <para>
+    This dataset contains environmental variables recorded at the
+    beginning and end of each survey section, such as weather, water
+    temperature, secchi disk depth, and river flow. Flow data was
+    plotted alongside adult and juvenile steelhead observed to examine
+    any potential relationship.
+  </para>
+      <para>
+    Adult and Juvenile Steelhead Data
+  </para>
+      <para>
+    This dataset contains the primary data collected for the survey:
+    adult and juvenile steelhead, chinook, and lamprey observed. Also
+    recorded is the number steelhead redds, steelhead carcasses, pacific
+    lamprey redds, Sacramento sucker redds, and any unknown or
+    unidentifiable redds.
+  </para>
+      <para>
+    Steelhead and Pacific Lamprey Redd Data
+  </para>
+      <para>
+    This dataset contains information recorded on steelhead and pacific
+    lamprey redds that were observed. Information such as latitude and
+    longitude of each redd observed, dimensions of the redd, and whether
+    fish were present on the redd can contribute to understanding
+    steelhead and lamprey spawning habits, and subsequently, their
+    population dynamics.
+  </para>
+      <para>
+    Steelhead Carcass Data
+  </para>
+      <para>
+    This dataset contains information on steelhead carcasses encountered
+    during this survey (January-April) and the Chinook escapement survey
+    (October-December). Fork length, sex, and location are recorded.
+    Also recorded is whether or not the adipose fin is present, and
+    whether or not scales, otoliths, or other biological samples were
+    collected.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Stanislaus River</keyword>
+      <keyword>steelhead trout</keyword>
+      <keyword>CVPIA</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+      <url>https://spdx.org/licenses/CC0-1.0.html</url>
+      <identifier>CC0-1.0</identifier>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Stanislaus River</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.9399</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.6299</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.8627</northBoundingCoordinate>
+          <southBoundingCoordinate>37.7421</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2020-10-10</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2022-04-27</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Chordata</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Osteichthyes</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Salmoniformes</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Salmonidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Oncorhynchus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>O. mykiss</taxonRankName>
+                      <commonName>Steelhead</commonName>
+                      <taxonId provider="https://itis.gov">SH</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Chordata</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Actinopterygii</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Salmoniformes</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Salmonidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Oncorhynchus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>O. tshawytscha</taxonRankName>
+                      <commonName>Chinook</commonName>
+                      <taxonId provider="https://itis.gov">CHN</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Chordata</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Hyperoartia</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Petromyzontiformes</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Petromyzontidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Entosphenus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>E. tridentatus</taxonRankName>
+                      <commonName>Pacific Lamprey</commonName>
+                      <taxonId provider="https://itis.gov">PL</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Animalia</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Chordata</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Actinopterygii</taxonRankName>
+              <taxonomicClassification>
+                <taxonRankName>Cypriniformes</taxonRankName>
+                <taxonomicClassification>
+                  <taxonRankName>Castostomidae</taxonRankName>
+                  <taxonomicClassification>
+                    <taxonRankName>Catostomus</taxonRankName>
+                    <taxonomicClassification>
+                      <taxonRankName>C. occidentalis</taxonRankName>
+                      <commonName>Sacramento Sucker</commonName>
+                      <taxonId provider="https://itis.gov">SASU</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Steve</givenName>
+        <surName>Tsao</surName>
+      </individualName>
+      <organizationName>CDFW</organizationName>
+      <electronicMailAddress>Steve.Tsao@wildlife.ca.gov</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+    The Stanislaus River Steelhead Life Cycle Monitoring Program –
+    Methods
+  </para>
+          <para>
+    Daily Info – Environmental Data
+  </para>
+          <para>
+    River flow was taken from the California Data Exchange Center
+    website using the Orange Blossom Bridge gauge. Water temperature
+    data was also taken from the CDEC website using the USGS Goodwin
+    Canyon gauge and Orange Blossom Bridge gauge.
+  </para>
+          <para>
+    Adult and Juvenile Steelhead Data
+  </para>
+          <para>
+    The methods used in this survey entail observing and counting live
+    steelhead, Pacific lamprey, chinook, and Sacramento sucker fish and
+    redds by hiking, kayak, or drift boat depending on the river portion
+    sampled and accessibility of the site. The single pass method was
+    used for observing fish. Steelhead were categorized as either adults
+    or juveniles based on whether they were greater or smaller than 16
+    inches, which was determined by visual estimation.
+  </para>
+          <para>
+    Steelhead and Pacific Lamprey Redd Data
+  </para>
+          <para>
+    Redd measurements were taken using a metric stadia rod or measuring
+    tape, based on methods used in California Coastal Spawning surveys
+    and the Lower American River Monitoring (Gallagher 2002, Cramer Fish
+    Sciences, 2020.) GPS location of redds were taken. Steelhead,
+    chinook, and Pacific lamprey redds were distinguished by size
+    characteristics of the redd. Steelhead redds are smaller than
+    Chinook redds, and Pacific lamprey redds are smaller than both.
+    Lamprey redds are distinguished by lacking a defined tailspin.
+  </para>
+          <para>
+    Steelhead Carcass Data
+  </para>
+          <para>
+    Steelhead carcasses encountered during this survey as well as the
+    escapement survey were documented. Date seen, riffle (location),
+    forklength, sex, and whether physical samples were collected of the
+    specimen are noted.
+  </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Stanislaus River Steelhead Monitoring and Redd Assessment, 2021</title>
+      <personnel>
+        <individualName>
+          <givenName>Steve</givenName>
+          <surName>Tsao</surName>
+        </individualName>
+        <organizationName>CDFW</organizationName>
+        <electronicMailAddress>Steve.Tsao@wildlife.ca.gov</electronicMailAddress>
+        <role>Project Lead</role>
+      </personnel>
+      <award>
+        <funderName>U.S. Department of the Interior: Grant award to continue the Annual Monitoring and Reporting of Stanislaus River Steelhead Spawning</funderName>
+        <awardNumber>R20AC00120-0</awardNumber>
+        <title>Central Valley Improvement Act</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>carcass.csv</entityName>
+      <entityDescription>Steelhead Carcass Survey and Chinook Escapement Survey</entityDescription>
+      <physical>
+        <objectName>carcass.csv</objectName>
+        <size unit="bytes">14</size>
+        <authentication method="MD5">3be7b8b182ccd96e48989b4e57311193</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/stanislaus-steelhead/main/data/carcass.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Date carcass was found</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2020-10-10</minimum>
+                  <maximum exclusive="false">2022-03-22</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>riffle</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Riffle carcass was found at</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Riffle carcass was found at</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>carcass_ID</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>ID for carcass</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID for carcass</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>condition</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Condition of carcass</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Condition of carcass</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Sex of carcass if able to be determined</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sex of carcass if able to be determined</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>forklength_cm</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Forklength of carcass</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">17.5</minimum>
+                  <maximum exclusive="false">43</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>adclip</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Whether adipose fin was clipped</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether adipose fin was clipped</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>scales</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Whether scales were taken from fish</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether scales were taken from fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>head</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Whether the head was taken from the fish</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the head was taken from the fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>otoliths</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Whether otoliths were taken from fish</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether otoliths were taken from fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fin_clip</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Whether the fin clip was taken from the fish</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether the fin clip was taken from the fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeLabel>carcass</attributeLabel>
+          <attributeDefinition>Notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>16</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>redd.csv</entityName>
+      <entityDescription>Steelhead and Pacific Lamprey Redds</entityDescription>
+      <physical>
+        <objectName>redd.csv</objectName>
+        <size unit="bytes">14</size>
+        <authentication method="MD5">3be7b8b182ccd96e48989b4e57311193</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/stanislaus-steelhead/main/data/redd.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Date redd was sampled</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2021-02-02</minimum>
+                  <maximum exclusive="false">2022-04-20</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>week</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Week redd was sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Week redd was sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>section</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Section redd was sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Section redd was sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>method</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Method redd was sampled by; drift boat, hike, boat</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Method redd was sampled by; drift boat, hike, boat</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mark_color</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Color redd was marked with</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Color redd was marked with</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>riffle</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Riffle redd was sampled at</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Riffle redd was sampled at</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>redd_ID</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>ID redd was given</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID redd was given</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Latitude redd was sampled at</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Latitude redd was sampled at</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Longitude redd was sampled at</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Longitude redd was sampled at</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Species of redd</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Species of redd</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>age</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Age of redd</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>year</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>est_area_m</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Estimated area of redd</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Estimated area of redd</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ambient_depth_cm</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Ambient depth of redd</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">23</minimum>
+                  <maximum exclusive="false">118</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pot_length_cm</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Length of pot used to measure redd</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Length of pot used to measure redd</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pot_width_cm</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Width of pot used to measure redd</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Width of pot used to measure redd</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pot_depth_cm</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Depth of pot used to measure redd</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of pot used to measure redd</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tailspin_length_cm</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Tailspin length of redd</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">52</minimum>
+                  <maximum exclusive="false">240</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tailspin_width_cm</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Tailspin width of redd</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">30</minimum>
+                  <maximum exclusive="false">118</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>est_pot_substrate</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Estimated pot substrate</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2</minimum>
+                  <maximum exclusive="false">9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>est_tailspin_substrate</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Estimated tailspin substrate</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>est_ambient_substrate</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Estimated ambient substrate</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ambient_velocity_ms</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Ambient velocity</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millisecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.68</minimum>
+                  <maximum exclusive="false">0.98</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>average_velocity</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Average velocity</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millisecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.25</minimum>
+                  <maximum exclusive="false">0.88</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>distance_cover</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Distance from the pot to the nearest submerged cover (log, bush, boulder)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>distance_wet_edge</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Distance from the pot to the closest shore</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.1</minimum>
+                  <maximum exclusive="false">15.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>distance_centerline</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Distance from the pot to the middle of the river in meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">33</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_present</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Whether or not fish were present on the redd</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether or not fish were present on the redd</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_1_sex</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Sex of fish number one</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sex of fish number one</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_1_size</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Estimated size of fish number one</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Estimated size of fish number one</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_2_sex</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Sex of fish number two</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sex of fish number two</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_2_size</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Estimated size of fish number two</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Estimated size of fish number two</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>redd</attributeLabel>
+          <attributeDefinition>Comments</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>22</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>environmental.csv</entityName>
+      <entityDescription>Daily Environmental Data</entityDescription>
+      <physical>
+        <objectName>environmental.csv</objectName>
+        <size unit="bytes">14</size>
+        <authentication method="MD5">3be7b8b182ccd96e48989b4e57311193</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/stanislaus-steelhead/main/data/environmental.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Date sampled</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2021-02-02</minimum>
+                  <maximum exclusive="false">2022-04-27</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>week</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Week sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Week sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>river</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>River sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>River sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>section</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Section of river sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Section of river sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>crew_1</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Initials of crew who did sampling</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initials of crew who did sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>crew_2</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Initials of second crew member who did sampling</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initials of second crew member who did sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>crew_3</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Initials of third crew member who did sampling</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initials of third crew member who did sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>recorder</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Initials of crew member who recorded data</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initials of crew member who recorded data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weather</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Code for general weather conditions</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for general weather conditions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flow</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>River flow from a gauging station</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>cubicFeetPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">185</minimum>
+                  <maximum exclusive="false">1500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time_in</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Time when the survey begins</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time when the survey begins</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time_out</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Time when the survey ends</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time when the survey ends</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>secchi</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Secchi disk depth, measured in feet</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Secchi disk depth, measured in feet</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>water_temperature_in</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Water temperature at beginning of day</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8</minimum>
+                  <maximum exclusive="false">14.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>water_temperature_out</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Water temperature at end of day</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8</minimum>
+                  <maximum exclusive="false">15.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeLabel>environmental</attributeLabel>
+          <attributeDefinition>Notes</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>178</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>steelhead.csv</entityName>
+      <entityDescription>Obsverved Adult and Juvenile Steelhead, Chinook, and Lamprey</entityDescription>
+      <physical>
+        <objectName>steelhead.csv</objectName>
+        <size unit="bytes">14</size>
+        <authentication method="MD5">3be7b8b182ccd96e48989b4e57311193</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/stanislaus-steelhead/main/data/steelhead.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Date that sampling occurred</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2021-02-02</minimum>
+                  <maximum exclusive="false">2022-04-27</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>section</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Section of river sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Section of river sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>riffle</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Riffle of river sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Riffle of river sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>adult_sh</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of adult steelhead observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>juve_sh</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of juvenile steelhead observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sh_redds</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of steelhead redds observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sh_carcass</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of steelhead redds observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>live_chn</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of live chinook observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chn_redd</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of chinook redds</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>live_pl</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of live pacific lamprey observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pl_redd</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of pacific lamprey redds observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sasu_redd</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of sacramento sucker redds observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">431</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>unk_redd</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Number of unknown redds observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>count</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>3196</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="count" name="count" unitType="dimensionless">
+          <description>count of redd or fish</description>
+        </unit>
+        <unit id="year" name="year" unitType="dimensionless">
+          <description>age of fish in years</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
