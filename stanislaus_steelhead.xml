@@ -39,7 +39,7 @@
       <electronicMailAddress>Emma.Keller@wildlife.ca.gov</electronicMailAddress>
       <role>reviewer</role>
     </associatedParty>
-    <pubDate>2023-08-02</pubDate>
+    <pubDate>2023-08-25</pubDate>
     <abstract>
       <para>
     Overview
@@ -682,12 +682,12 @@
         <attribute>
           <attributeName>species</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Species of redd</attributeDefinition>
+          <attributeDefinition>Species associated with redd.</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Species of redd</definition>
+                  <definition>Species associated with redd.</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -729,7 +729,7 @@
         <attribute>
           <attributeName>ambient_depth_cm</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Ambient depth of redd</attributeDefinition>
+          <attributeDefinition>Ambient depth of redd. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -748,12 +748,12 @@
         <attribute>
           <attributeName>pot_length_cm</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Length of pot used to measure redd</attributeDefinition>
+          <attributeDefinition>Length of pot used to measure redd. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Length of pot used to measure redd</definition>
+                  <definition>Length of pot used to measure redd. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -762,12 +762,12 @@
         <attribute>
           <attributeName>pot_width_cm</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Width of pot used to measure redd</attributeDefinition>
+          <attributeDefinition>Width of pot used to measure redd. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Width of pot used to measure redd</definition>
+                  <definition>Width of pot used to measure redd. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -776,12 +776,12 @@
         <attribute>
           <attributeName>pot_depth_cm</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Depth of pot used to measure redd</attributeDefinition>
+          <attributeDefinition>Depth of pot used to measure redd. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Depth of pot used to measure redd</definition>
+                  <definition>Depth of pot used to measure redd. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -790,7 +790,7 @@
         <attribute>
           <attributeName>tailspin_length_cm</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Tailspin length of redd</attributeDefinition>
+          <attributeDefinition>Tailspin length of redd. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -809,7 +809,7 @@
         <attribute>
           <attributeName>tailspin_width_cm</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Tailspin width of redd</attributeDefinition>
+          <attributeDefinition>Tailspin width of redd. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -828,7 +828,7 @@
         <attribute>
           <attributeName>est_pot_substrate</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Estimated pot substrate</attributeDefinition>
+          <attributeDefinition>Estimated pot substrate. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -847,7 +847,7 @@
         <attribute>
           <attributeName>est_tailspin_substrate</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Estimated tailspin substrate</attributeDefinition>
+          <attributeDefinition>Estimated tailspin substrate. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -866,7 +866,7 @@
         <attribute>
           <attributeName>est_ambient_substrate</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Estimated ambient substrate</attributeDefinition>
+          <attributeDefinition>Estimated ambient substrate. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -885,7 +885,7 @@
         <attribute>
           <attributeName>ambient_velocity_ms</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Ambient velocity</attributeDefinition>
+          <attributeDefinition>Ambient velocity. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -904,7 +904,7 @@
         <attribute>
           <attributeName>average_velocity</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Average velocity</attributeDefinition>
+          <attributeDefinition>Average velocity. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -923,7 +923,7 @@
         <attribute>
           <attributeName>distance_cover</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Distance from the pot to the nearest submerged cover (log, bush, boulder)</attributeDefinition>
+          <attributeDefinition>Distance from the pot to the nearest submerged cover (log, bush, boulder). NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -942,7 +942,7 @@
         <attribute>
           <attributeName>distance_wet_edge</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Distance from the pot to the closest shore</attributeDefinition>
+          <attributeDefinition>Distance from the pot to the closest shore. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -961,7 +961,7 @@
         <attribute>
           <attributeName>distance_centerline</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Distance from the pot to the middle of the river in meters</attributeDefinition>
+          <attributeDefinition>Distance from the pot to the middle of the river in meters. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <ratio>
               <unit>
@@ -980,12 +980,12 @@
         <attribute>
           <attributeName>fish_present</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Whether or not fish were present on the redd</attributeDefinition>
+          <attributeDefinition>Whether or not fish were present on the redd. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Whether or not fish were present on the redd</definition>
+                  <definition>Whether or not fish were present on the redd. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -994,12 +994,12 @@
         <attribute>
           <attributeName>fish_1_sex</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Sex of fish number one</attributeDefinition>
+          <attributeDefinition>Sex of fish number one. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Sex of fish number one</definition>
+                  <definition>Sex of fish number one. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -1008,12 +1008,12 @@
         <attribute>
           <attributeName>fish_1_size</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Estimated size of fish number one</attributeDefinition>
+          <attributeDefinition>Estimated size of fish number one. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Estimated size of fish number one</definition>
+                  <definition>Estimated size of fish number one. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -1022,12 +1022,12 @@
         <attribute>
           <attributeName>fish_2_sex</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Sex of fish number two</attributeDefinition>
+          <attributeDefinition>Sex of fish number two. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Sex of fish number two</definition>
+                  <definition>Sex of fish number two. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -1036,12 +1036,12 @@
         <attribute>
           <attributeName>fish_2_size</attributeName>
           <attributeLabel>redd</attributeLabel>
-          <attributeDefinition>Estimated size of fish number two</attributeDefinition>
+          <attributeDefinition>Estimated size of fish number two. NA values indicate "not available"</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <textDomain>
-                  <definition>Estimated size of fish number two</definition>
+                  <definition>Estimated size of fish number two. NA values indicate "not available"</definition>
                 </textDomain>
               </nonNumericDomain>
             </nominal>
@@ -1373,6 +1373,58 @@
           </measurementScale>
         </attribute>
         <attribute>
+          <attributeName>survey_week</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Week of the year that sampling occurred</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>week</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">17</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>survey_year</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Year sampling occurred</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>year</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">2021</minimum>
+                  <maximum exclusive="false">2022</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>was_surveyed</attributeName>
+          <attributeLabel>steelhead</attributeLabel>
+          <attributeDefinition>Whether or not sampling occurred during that week, riffle, and year.</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether or not sampling occurred during that week, riffle, and year.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
           <attributeName>section</attributeName>
           <attributeLabel>steelhead</attributeLabel>
           <attributeDefinition>Section of river sampled</attributeDefinition>
@@ -1601,7 +1653,10 @@
           <description>count of redd or fish</description>
         </unit>
         <unit id="year" name="year" unitType="dimensionless">
-          <description>age of fish in years</description>
+          <description>year</description>
+        </unit>
+        <unit id="week" name="week" unitType="dimensionless">
+          <description>week</description>
         </unit>
       </unitList>
     </metadata>

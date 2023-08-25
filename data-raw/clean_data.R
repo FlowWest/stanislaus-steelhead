@@ -64,7 +64,7 @@ steelhead <- readxl::read_xlsx(here::here("data-raw", "adult-juvenile-steelhead-
                                  TRUE ~ survey_week)) |>
   select(date, survey_week, survey_year, was_surveyed,
          section, riffle, adult_sh, juve_sh, sh_redds, sh_carcass,
-         live_chn, chn_redd, live_pl, pl_redd, unk_redd) |>
+         live_chn, chn_redd, live_pl, pl_redd, sasu_redd, unk_redd) |>
   glimpse()
 
 

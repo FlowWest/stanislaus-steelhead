@@ -48,12 +48,13 @@ dataset <- list() %>%
   add_datatable(datatable_metadata)
 
 # GO through and check on all units
-custom_units <- data.frame(id = c("count", "year"),
-                           unitType = c("dimensionless", "dimensionless"),
-                           parentSI = c(NA, NA),
-                           multiplierToSI = c(NA, NA),
+custom_units <- data.frame(id = c("count", "year", "week"),
+                           unitType = c("dimensionless", "dimensionless", "dimensionless"),
+                           parentSI = c(NA, NA, NA),
+                           multiplierToSI = c(NA, NA, NA),
                            description = c("count of redd or fish",
-                                           "age of fish in years"))
+                                           "year",
+                                           "week"))
 edi_number <- "stanislaus_steelhead"
 
 unitList <- EML::set_unitList(custom_units)
