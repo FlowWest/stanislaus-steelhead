@@ -54,6 +54,17 @@ environmental <- read.csv(here::here("data-raw", "daily-info-environmental-data-
 # adult/juvenile
 steelhead <- readxl::read_xlsx(here::here("data-raw", "adult-juvenile-steelhead-data-2021-2022.xlsx"),
                                col_types = c("guess", "numeric", "text", rep("numeric", 10))) |>
+  mutate(survey_week = lubridate::week(date),
+         was_surveyed = ifelse(is.na(date), FALSE, TRUE),
+         survey_year = ifelse(!was_surveyed, 2022, lubridate::year(date)), # all from 2022
+         riffle_ref = substr(riffle, 1, 1), # split up by riffle
+         split_survey_weeks = cumsum(!was_surveyed & riffle_ref == "A") >= 1, # the first set of riffles with no dates were week 3 (going off looking at files)
+         survey_week = case_when(!was_surveyed & !split_survey_weeks ~ 3,
+                                 !was_surveyed & split_survey_weeks ~ 4, # second set of riffles with no dates were week 4
+                                 TRUE ~ survey_week)) |>
+  select(date, survey_week, survey_year, was_surveyed,
+         section, riffle, adult_sh, juve_sh, sh_redds, sh_carcass,
+         live_chn, chn_redd, live_pl, pl_redd, unk_redd) |>
   glimpse()
 
 
@@ -65,7 +76,7 @@ write.csv(steelhead, here::here("data", "steelhead.csv"), row.names = FALSE)
 
 
 # read in to double check -------------------------------------------------
-read.csv(here::here("data", "carcass.csv")) |> glimpse()
-read.csv(here::here("data", "redd.csv")) |> glimpse()
+carcass <- read.csv(here::here("data", "carcass.csv")) |> glimpse()
+redd <- read.csv(here::here("data", "redd.csv")) |> glimpse()
 read.csv(here::here("data", "environmental.csv")) |> glimpse()
 read.csv(here::here("data", "steelhead.csv")) |> glimpse()
